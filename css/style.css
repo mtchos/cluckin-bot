@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap&family=Noto+Sans+TC:wght@300;700&family=Roboto+Slab&display=swap');
+
+/* Noto Sans TC, Roboto Slab e Forum*/
+
+* { /**/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3DFC5;
+    color: #282828;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828;
+    width: 100%;
+    height: 150px;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+    object-fit: contain;
+}
+
+.header__title {
+    color: #fff;
+    font-family: 'Forum', sans-serif;
+    font-size: 48px;
+}
+
+.header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 700;
+}
+
+.containeres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__title {
+    margin: 60px 0;
+    width: 1100px;
+}
+
+.section__title {
+    font-size: 36px;
+    /* margin: 40px 0; */
+    align-items: flex-start;
+}
+
+/*********** INICIO - SECTION EQUIPE ***********/
+
+.container__equipe {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.container__equipe__text {
+    width: 60%;
+}
+
+.container__equipe__title {
+    font-size: 24px;
+    font-weight: 800;
+} 
+
+.container__equipe__p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.container__equipe__imgContainer {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.container__equipe__imgContainer__img {
+    width: 95%;
+    height: 300px;
+}
+
+/*********** FIM - SECTION EQUIPE ***********/
+
+/*********** INICIO - SECTION SOBRE ***********/
+
+.container__sobre {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    margin: 5%;
+}
+
+.container__sobre__p {
+    margin-top: 10px;
+    /* text-indent: 50px; */
+    text-align: justify;
+    line-height: 30px;
+}
+
+.container__sobre__imgContainer {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.container__sobre__imgContainer__img {
+    width: 400px;
+}
+
+/*********** FIM - SECTION SOBRE ***********/
+
+.footer {
+    background-color: #282828;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    padding-top: 40px;
+}
+
+.footer__visao_geral {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    color: #fff;
+    font-weight: bold;
+    text-align: start;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 10px;
+    list-style: none;
+    /* text-align: start; */
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    /* height: 300px; */
+    /* width: 20%; */
+}
+
+.footer__menu_link {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.footer__text {
+    width: 40%;
+}
+
+.footer__text__p {
+    margin-top: 10px;
+}
+
+.footer__contato {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__contato__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+.footer__contato__list__item {
+    margin-top: 10px;
+}
+
+.footer__contato__list__item p {
+    font-size: 14px;
+}
+
+.footer__contato__campo {
+    border: 0 solid #fff;
+    border-radius: 10px;
+    margin-top: 6px;
+    line-height: 24px;
+    width: 100%;
+    max-width: 300px;
+}
+
+#CampoComentario {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.button {
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    max-width: 150px;
+    margin-top: 20px;
+    border: 1px solid #F3DFC5;
+    color: #F3DFC5;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #F3DFC5;
+    color: #282828;
+}
+
+.container__naoImplementado {
+    height: 50vh;
+    padding: 5%;
+}
+
+.container__naoImplementado p, li {
+    line-height: 24px;
+}
+
+.container__naoImplementado h1 {
+    line-height: 108px;
+}
+
+.container__naoImplementado__list {
+    margin-left: 2%;
+}
